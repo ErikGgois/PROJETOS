@@ -17,7 +17,7 @@ function App() {
 
           <div className='neto1-3'>
           </div>
-          
+
         </div>
 
         <div className='filho2'>
@@ -26,6 +26,14 @@ function App() {
           </div>
 
           <div className='neto2-2'>
+            <div className='bis2-1'>
+            <div className='tatara1-1'></div>
+            <div className='tatara1-2'></div>
+            </div>
+            <div className='bis2-2'>
+              <div className='tatara2-1'></div>
+              <div className='tatara2-2'></div>
+            </div>
           </div>
 
         </div>

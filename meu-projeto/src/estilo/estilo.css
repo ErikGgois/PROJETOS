@@ -54,6 +54,56 @@
     background-color: darkcyan;
     flex: 1;
     border: 1px solid black;
+    display: flex;
+    flex-direction:column;
+}
+
+.bis2-1{
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.bis2-2{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    flex: 1;
+    border: 1px solid red;
+}
+
+.tatara1-1{
+    flex: 1;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.tatara1-2{
+    flex: 3;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.tatara2-1{
+    flex: 3;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.tatara2-2{
+    flex: 1;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
 }
 
 .filho3 {
