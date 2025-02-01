@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid black;
+
+    /* column ou row*/
+}
+
+.filho1 {
+    flex: 1;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    
+}
+
+.neto1-1 {
+    background-color: red;
+    flex: 1; 
+    border: 1px solid black;
+}
+
+.neto1-2 {
+    background-color: yellow;
+    flex: 2;
+    border: 1px solid black;
+}
+
+.neto1-3 {
+    background-color: green;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.filho2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.neto2-1 {
+    background-color: cadetblue;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.neto2-2 {
+    background-color: darkcyan;
+    flex: 1;
+    border: 1px solid black;
+}
+
+.filho3 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.neto3-1 {
+    background-color: purple;
+    flex: 2;
+    border: 1px solid black;
+}
+
+.neto3-2 {
+    background-color: dimgray;
+    flex: 1;
+    border: 1px solid black;
+}
