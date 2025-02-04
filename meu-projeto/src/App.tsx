@@ -1,9 +1,18 @@
 import './estilo/estilo.css'
+import './FlexDirection'
+import FlexDirection from './FlexDirection'
 
 function App() {
 
   return (
-    <>
+
+<div>
+  <FlexDirection/>
+</div>
+
+
+
+   /* <>
 
       <div className='container'>
 
@@ -50,7 +59,7 @@ function App() {
 
       </div>
 
-    </>
+    </> */
   )
 }
 

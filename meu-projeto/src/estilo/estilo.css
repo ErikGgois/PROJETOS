@@ -125,3 +125,27 @@
     flex: 1;
     border: 1px solid black;
 }
+
+.paizao{
+background-color: aquamarine;
+display: flex;
+flex-direction: row;
+height: 500px;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.fi-1{
+background-color: blue;
+height: 100px;
+width: 100px;
+
+}
+
+.fi-2{
+background-color: red;
+height: 100px;
+width: 100px;
+align-self: flex-end;
+}
