@@ -1,18 +1,30 @@
+import Componentes from './Componentes'
 import './estilo/estilo.css'
 import './FlexDirection'
 import FlexDirection from './FlexDirection'
+import Menu from './Menu'
+import Rodape from './Rodape'
 
 function App() {
 
   return (
 
+    <div>
+      <Menu />
+      <Componentes />
+      <Rodape />
+    </div>
+
+    
+/* atividade quadro colorido  
 <div>
   <FlexDirection/>
 </div>
+*/
 
 
 
-   /* <>
+   /* primeira atividade<>
 
       <div className='container'>
 
