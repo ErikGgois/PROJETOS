@@ -1,19 +1,26 @@
-import Componentes from './Componentes'
+// import Componentes from './Componentes'
 import './estilo/estilo.css'
-import './FlexDirection'
-import FlexDirection from './FlexDirection'
-import Menu from './Menu'
-import Rodape from './Rodape'
+// import './FlexDirection'
+// import FlexDirection from './FlexDirection'
+// import Menu from './Menu'
+// import Rodape from './Rodape'
+import Home from './pages/home'
+import Sobre from './pages/sobre' 
+import { Routes,Route } from 'react-router-dom'
 
 function App() {
 
   return (
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/sobre' element={<Sobre/>} />
+    </Routes>
 
-    <div>
+   /* <div>
       <Menu />
       <Componentes />
       <Rodape />
-    </div>
+    </div> */
 
     
 /* atividade quadro colorido  
