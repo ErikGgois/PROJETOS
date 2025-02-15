@@ -1,10 +1,13 @@
 // import Componentes from './Componentes'
 import './estilo/estilo.css'
+import Cadastro from './pages/Cadastro'
 // import './FlexDirection'
 // import FlexDirection from './FlexDirection'
 // import Menu from './Menu'
 // import Rodape from './Rodape'
 import Home from './pages/home'
+import Login from './pages/Login'
+import NotFound from './pages/Notfound'
 import Sobre from './pages/sobre' 
 import { Routes,Route } from 'react-router-dom'
 
@@ -12,8 +15,11 @@ function App() {
 
   return (
     <Routes>
+      <Route path='*' element={<NotFound/>} />
       <Route path='/' element={<Home/>} />
       <Route path='/sobre' element={<Sobre/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/Cadastro' element={<Cadastro/>} />
     </Routes>
 
    /* <div>
