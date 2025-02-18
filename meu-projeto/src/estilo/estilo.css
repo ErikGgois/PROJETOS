@@ -219,6 +219,8 @@ justify-content: flex-end;
 
 .Cabe2{
 display: flex;
+flex-direction: row;
+justify-content: space-between;
 height: 100px;
 width: 100%;
 background-color: chocolate;
@@ -239,3 +241,10 @@ border: 2px solid black;
     height: 50px;
     width: 70px;
 }
+
+.cabecalhocanto{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  

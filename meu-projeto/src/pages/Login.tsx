@@ -4,17 +4,20 @@ import Rodape from "../Rodape"
 
 function Login() {
 
-    
+
     const QualquerCoisa = useParams();
     const navegacao = useNavigate();
 
-    function HandleVoltar (){
+    function HandleVoltar() {
 
         navegacao('/');
     }
     return (
         <div>
-            <Cabecalho />
+            <Cabecalho
+                titulo="Titulo informado"
+                pagina="Pagina informado"
+                parametro="Parametro informado" />
             Faça seu login
             <Rodape />
             <br /><br />

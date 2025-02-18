@@ -6,15 +6,18 @@ function Cadastro() {
 
     const navegacao = useNavigate();
 
-    function HandleVoltar(){
+    function HandleVoltar() {
         navegacao('/');
 
     }
     return (
         <div>
-            <Cabecalho />
+            <Cabecalho
+                titulo="Titulo informado"
+                pagina="Pagina informado"
+                parametro="Parametro informado" />
             Faça seu cadastro
-            <Rodape/>
+            <Rodape />
             <br /><br />
             <button onClick={HandleVoltar} > VOLTAR </button>
         </div>
