@@ -1,4 +1,4 @@
-import './estilo/estilo.css'
+import '../../estilo/estilo.css'
 import { Link } from 'react-router-dom'
 
 type Informacoes = {

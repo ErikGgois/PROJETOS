@@ -1,6 +1,6 @@
-import Rodape from "../Rodape"
-import Cabecalho from "../Cabecalho"
-import Menu from "../Menu"
+import Rodape from "../components/rodape"
+import Cabecalho from "../components/cabecalho"
+
 
 
 function Home() {

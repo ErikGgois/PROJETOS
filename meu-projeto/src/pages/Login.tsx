@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
-import Cabecalho from "../Cabecalho"
-import Rodape from "../Rodape"
+import Cabecalho from "../components/cabecalho";
+import Rodape from "../components/rodape";
 
 function Login() {
 
