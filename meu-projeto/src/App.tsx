@@ -10,6 +10,7 @@ import Login from './pages/Login'
 import NotFound from './pages/Notfound'
 import Sobre from './pages/Sobre' 
 import { Routes,Route } from 'react-router-dom'
+import Calculadora from './pages/Calculadora'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/sobre' element={<Sobre/>} />
       <Route path='/login' element={<Login/>} />
-      <Route path='/Cadastro' element={<Cadastro/>} />
+      <Route path='/cadastro' element={<Cadastro/>} />
+      <Route path='/calculadora' element={<Calculadora/>} />
     </Routes>
 
    /* <div>
