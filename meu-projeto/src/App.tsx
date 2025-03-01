@@ -11,6 +11,7 @@ import NotFound from './pages/Notfound'
 import Sobre from './pages/Sobre' 
 import { Routes,Route } from 'react-router-dom'
 import Calculadora from './pages/Calculadora'
+import Lista from './pages/Listas'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/cadastro' element={<Cadastro/>} />
       <Route path='/calculadora' element={<Calculadora/>} />
+      <Route path='lista' element={<Lista/>} />
     </Routes>
 
    /* <div>
