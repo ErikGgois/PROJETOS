@@ -1,13 +1,9 @@
 import '../../estilo/estilo.css'
 import { Link } from 'react-router-dom'
 
-type Informacoes = {
-    titulo: string;
-    pagina: string;
-    parametro: string;
-}
 
-function Cabecalho(valores: Informacoes) {
+
+function Cabecalho() {
     return (
         <div className='Cabe1'>
             <div className='Cabe2'>
@@ -16,9 +12,6 @@ function Cabecalho(valores: Informacoes) {
                 <div className='CadastroLink'><Link to='/cadastro'> <h2> cadastro </h2></Link></div>
                 <div className='Calculadora'><Link to='/calculadora'> <h2> calculadora </h2> </Link> </div>
                 <div className='cabecalhocanto'>
-                    titulo ={valores.titulo} <br />
-                    pagina ={valores.pagina} <br />
-                    parametro ={valores.parametro}
                 </div>
 
             </div>

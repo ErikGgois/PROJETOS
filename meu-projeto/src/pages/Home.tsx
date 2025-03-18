@@ -7,10 +7,7 @@ function Home() {
 
     return (
         <div>
-            <Cabecalho
-                titulo="Titulo informado"
-                pagina="Pagina informado"
-                parametro="Parametro informado" />
+            <Cabecalho />
             <h2> Conteudos </h2>
             <Rodape />
         </div>

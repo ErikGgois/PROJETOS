@@ -13,6 +13,7 @@ import { Routes,Route } from 'react-router-dom'
 import Calculadora from './pages/Calculadora'
 import Lista from './pages/Listas'
 import Comunicacao from './pages/Comunicacao'
+import Requisicoes from './pages/Requisicoes'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='/calculadora' element={<Calculadora/>} />
       <Route path='lista' element={<Lista/>} />
       <Route path='Comunicacao' element={<Comunicacao/>} />
+      <Route path='/Requisicoes' element={<Requisicoes/>} />
     </Routes>
 
    /* <div>
