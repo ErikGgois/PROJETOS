@@ -14,6 +14,9 @@ import Calculadora from './pages/Calculadora'
 import Lista from './pages/Listas'
 import Comunicacao from './pages/Comunicacao'
 import Requisicoes from './pages/Requisicoes'
+import RequisicoesPost from './pages/RequisicoesPost'
+import RequisicoesTypes from './pages/RequisicoesTypes'
+
 
 function App() {
 
@@ -28,6 +31,8 @@ function App() {
       <Route path='lista' element={<Lista/>} />
       <Route path='Comunicacao' element={<Comunicacao/>} />
       <Route path='/Requisicoes' element={<Requisicoes/>} />
+      <Route path='/RequisicoesTypes' element={<RequisicoesTypes/>} />
+      <Route path='/RequisicoesPost' element={<RequisicoesPost/>} />
     </Routes>
 
    /* <div>
